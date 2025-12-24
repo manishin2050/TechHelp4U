@@ -11,7 +11,7 @@ export function Navbar() {
   const navItems = [
     { label: 'Home', href: '#' },
     { label: 'About', href: '#about' },
-    { label: 'Services', href: '#services' },
+    { label: 'Team', href: '#teams' },
     { label: 'Community', href: '#community' },
   ];
 

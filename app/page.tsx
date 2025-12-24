@@ -3,8 +3,9 @@
 import { Navbar } from '@/components/navbar';
 import { Hero } from '@/components/hero';
 import { About } from '@/components/about';
-import { Services } from '@/components/services';
+import { Teams } from '@/components/teams';
 import { CommunityStats } from '@/components/community-stats';
+import  OurTeam  from '@/app/our-team/page';
 import { WhyJoinUs } from '@/components/why-join-us';
 import { Testimonials } from '@/components/testimonials';
 import { CTA } from '@/components/cta';
@@ -17,8 +18,9 @@ export default function Home() {
         
       <Hero />
       <About />
-      <Services />
-      <CommunityStats />
+      <Teams />
+      {/* <CommunityStats /> */}
+      {/* <OurTeam /> */}
       <WhyJoinUs />
       <Testimonials />
       <CTA />
